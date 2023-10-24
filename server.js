@@ -915,7 +915,7 @@ io.on('connection', async (socket) => {
     newPlayer.footColor = footColor;
     newPlayer.haveCam = haveCam;
 
-    // saveDisplayname(newPlayer.userId, name);
+    saveDisplayname(newPlayer.userId, name);
     // find same room player
     for (var id in players) {
       var p = players[id];
