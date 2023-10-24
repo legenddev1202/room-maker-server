@@ -1,0 +1,38 @@
+{
+  "name": "room-maker-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoluca-io/room-maker-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoluca-io/room-maker-server/issues"
+  },
+  "homepage": "https://github.com/leoluca-io/room-maker-server#readme",
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "aws-sdk": "^2.1260.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "cos-nodejs-sdk-v5": "^2.11.12",
+    "express": "^4.18.1",
+    "formidable": "^2.0.1",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^118.0.0",
+    "mysql": "^2.18.1",
+    "openai": "^3.2.1",
+    "readline": "^1.3.0",
+    "sharp": "^0.28.3",
+    "socket.io": "^4.5.1",
+    "socketio-file-upload": "^0.7.3",
+    "uuid": "^8.3.2"
+  }
+}
