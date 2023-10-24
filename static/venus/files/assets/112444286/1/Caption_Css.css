@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Aldrich";
-  src: url("https://leoluca.io/font/Aldrich-Regular.ttf") format("ttf"),
-       url("https://leoluca.io/font/Aldrich-Regular.woff") format("woff"),
-       url("https://leoluca.io/font/Aldrich-Regular.woff2") format("woff2"),
-       url("https://leoluca.io/font/Aldrich-Regular.eot") format("eot");
+  src: url("https://play.grwth.hk/font/Aldrich-Regular.ttf") format("ttf"),
+       url("https://play.grwth.hk/font/Aldrich-Regular.woff") format("woff"),
+       url("https://play.grwth.hk/font/Aldrich-Regular.woff2") format("woff2"),
+       url("https://play.grwth.hk/font/Aldrich-Regular.eot") format("eot");
 }
 
 ::-webkit-scrollbar {
