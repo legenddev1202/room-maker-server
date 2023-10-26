@@ -874,6 +874,9 @@ io.on('connection', async (socket) => {
   socket.on('initData', function (data) {
     var sameRoomPlayer = {};
     var name = data.name || newPlayer.name;
+    if (name === "unnamed") {
+      name = " ";
+    }
     // var name = ' ';
     var roomId = 'public'; // + newPlayer.channelId;
     var textureIdx = data.textureIdx;
@@ -915,7 +918,7 @@ io.on('connection', async (socket) => {
     newPlayer.footColor = footColor;
     newPlayer.haveCam = haveCam;
 
-    saveDisplayname(newPlayer.userId, name);
+    // saveDisplayname(newPlayer.userId, name);
     // find same room player
     for (var id in players) {
       var p = players[id];
