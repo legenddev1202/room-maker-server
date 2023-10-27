@@ -874,10 +874,10 @@ io.on('connection', async (socket) => {
   socket.on('initData', function (data) {
     var sameRoomPlayer = {};
     var name = data.name || newPlayer.name;
+    // var name = ' ';
     if (name === "unnamed") {
       name = " ";
     }
-    // var name = ' ';
     var roomId = 'public'; // + newPlayer.channelId;
     var textureIdx = data.textureIdx;
     var headIdx = data.headIdx;

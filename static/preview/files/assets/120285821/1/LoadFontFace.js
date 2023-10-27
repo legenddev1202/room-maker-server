@@ -10,7 +10,7 @@ LoadFontFace.prototype.initialize = function () {
 
     // Use the browser FontFace API to load the font from the base64 encoded data
     // var fontFace = new FontFace(`${this.fontName}`, 'url(data:application/font-ttf;charset=utf-8;base64,' + asset.resource + ')', {
-    var fontFace = new FontFace(`${this.fontName}`, 'url(https://play.grwth.hk/font/Microsoft-JhengHei.ttf)', {
+    var fontFace = new FontFace(`${this.fontName}`, 'url(https://play.grwth.hkfont/Microsoft-JhengHei.ttf)', {
         style: 'normal',
         display: 'swap',
         weight: '400'

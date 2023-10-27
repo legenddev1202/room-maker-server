@@ -12,7 +12,7 @@ pc.script.createLoadingScreen(function (app) {
         splash.style.display = 'none';
 
         var logo = document.createElement('img');
-        logo.src = 'https://play.grwth.hk/icon.png';
+        logo.src = 'https://grwth.leoluca.io/icon.png';
         splash.appendChild(logo);
         logo.onload = function () {
             splash.style.display = 'block';
