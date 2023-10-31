@@ -1,0 +1,98 @@
+/* @font-face {
+  font-family: "Aldrich";
+  src: url("https://play.grwth.hk/font/Aldrich-Regular.ttf") format("ttf"),
+       url("https://play.grwth.hk/font/Aldrich-Regular.woff") format("woff"),
+       url("https://play.grwth.hk/font/Aldrich-Regular.woff2") format("woff2"),
+       url("https://play.grwth.hk/font/Aldrich-Regular.eot") format("eot");
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(171 171 171);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 5px rgb(78 78 78);
+    border-radius: 10px;
+}
+
+.captionUI {
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+    display:none;
+}
+
+.captionUI.active {
+    display:block;
+}
+
+.captionUI #iframeWrap {
+    width: 30vmin;
+    height: 23.5vmin;
+    position: absolute;
+    bottom: 6.5vmin;
+    right: 37vmin;
+}
+
+.captionUI #contentWrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #72dbd4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.captionUI #title {
+    font-family: "Aldrich", Microsoft JhengHei, fangsong;
+    font-weight: bolder;
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.captionUI #content {
+    font-family: "Aldrich", Microsoft JhengHei, fangsong;
+    font-weight: bolder;
+    line-height: 20px;
+    width: 100%;
+    height: 80%;
+    font-size: 13px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.captionUI #closeBtn {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captionUI #bg {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+} */
