@@ -1041,8 +1041,8 @@ io.on('connection', async (socket) => {
 
   socket.on('chatBoxUpdate', function (data) {
     var room = players[socket.id].roomId;
-    // io.sockets.in(room).emit('updateChatBox', { ...data, name: players[socket.id].name });
-    io.sockets.in(room).emit('updateChatBox', { ...data, name: " " });
+    io.sockets.in(room).emit('updateChatBox', { ...data, name: players[socket.id].name });
+    // io.sockets.in(room).emit('updateChatBox', { ...data, name: " " });
   });
 
   socket.on('setWebCamUID', function (data) {
