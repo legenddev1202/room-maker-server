@@ -18,6 +18,7 @@
   "homepage": "https://github.com/leoluca-io/room-maker-server#readme",
   "dependencies": {
     "agora-access-token": "^2.0.4",
+    "agora-token": "^2.0.3",
     "aws-sdk": "^2.1260.0",
     "axios": "^0.27.2",
     "body-parser": "^1.20.1",

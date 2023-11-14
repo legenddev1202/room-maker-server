@@ -1,4 +1,5 @@
-const { RtcTokenBuilder, RtmTokenBuilder, RtcRole, RtmRole } = require('agora-access-token');
+const {RtcTokenBuilder, RtmTokenBuilder, RtcRole, RtmRole} = require('agora-token')
+
 const SocketIOFileUpload = require('socketio-file-upload');
 const express = require('express');
 const axios = require('axios');
