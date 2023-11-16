@@ -1047,6 +1047,7 @@ io.on('connection', async (socket) => {
   });
 
   socket.on('setWebCamUID', function (data) {
+    console.log("===", players[data.id]);
     var room = players[data.id].roomId;
     var webCamUID = data.webCamUID;
     players[data.id].webCamUID = webCamUID;
