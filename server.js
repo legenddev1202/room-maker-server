@@ -487,11 +487,20 @@ app.post('/publishes/:assignmentId', async function (req, res, next) {
 app.post('/send-email', (req, res) => {
   const {  from, to, subject, message} = req.body;
   console.log( from, to, subject, message, "======");
+  // const transporter = nodemailer.createTransport({
+  //   service: 'gmail',
+  //   auth: {
+  //     user: 'phoenixdev0211@gmail.com',
+  //     pass: "sitaumvnfuwmadtm"
+  //   }
+  // });
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.beaumont-capitalmarkets.co.uk',
+    port: 465,
+    secure: false,
     auth: {
-      user: 'phoenixdev0211@gmail.com',
-      pass: "sitaumvnfuwmadtm"
+      user: 'kirk@beaumont-capitalmarkets.co.uk',
+      pass: "&$_r4yuX!-s?-yekk"
     }
   });
   // to: "mrrki3334@gmail.com",
